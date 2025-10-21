@@ -1,0 +1,62 @@
+# ======================
+# Build artifacts
+# ======================
+/target/
+
+# ======================
+# IDE / Editor
+# ======================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans / Gradle noise
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ======================
+# Logs & OS files
+# ======================
+logs/
+*.log
+.DS_Store
+
+# ======================
+# Runtime data
+# ======================
+uploads/
+
+# ======================
+# Secrets / Local config
+# (Commit an application-example.properties with fake values)
+# ======================
+src/main/resources/application.properties
+src/main/resources/application.yml
+.env
+
+# ======================
+# Maven Wrapper
+# IMPORTANT: keep wrapper files committed
+#   mvnw, mvnw.cmd
+#   .mvn/wrapper/maven-wrapper.jar
+#   .mvn/wrapper/maven-wrapper.properties
+# DO NOT ignore the jar.
+# ======================
+
+# If you had this before, remove it:
+# .mvn/wrapper/maven-wrapper.jar
